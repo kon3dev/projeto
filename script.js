@@ -10,7 +10,12 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/profileyellow.PNG")
+    img.setAttribute(
+      "alt",
+      "Foto de Matheus Dev sorrindo, usando camisa branca, barba curta e fundo amarelo."
+    )
   } else {
     img.setAttribute("src", "./assets/profilepurple.PNG")
+    img.setAttribute("alt", "Foto de Matheus Dev sorrindo, usando camisa branca, barba curta e fundo roxo.")
   }
 }
